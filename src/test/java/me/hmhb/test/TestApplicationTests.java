@@ -17,6 +17,7 @@ class TestApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("你好");
         myService.test();
     }
 }
